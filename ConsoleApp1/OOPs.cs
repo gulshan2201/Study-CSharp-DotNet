@@ -10,12 +10,13 @@ namespace MyCSharpSession
     {
         //field
         public string Name;
-        public int Age; 
+        public int Age;
+        public long Salary;
 
         //Method
         public void DisplayInfo()
         {
-            Console.WriteLine($"Person's Name: {Name}, Person's Age: {Age}");
+            Console.WriteLine($"Person's Name: {Name}, Person's Age: {Age}, Person's Salary: {Salary}");
         }
     }
 
@@ -30,6 +31,7 @@ namespace MyCSharpSession
             //setting properties
             person1.Name = "Test";
             person1.Age = 10;
+            person1.Salary = 200000;
 
             //calling Method
             person1.DisplayInfo();
