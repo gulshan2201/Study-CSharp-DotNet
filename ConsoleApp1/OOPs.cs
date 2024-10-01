@@ -9,6 +9,7 @@ namespace MyCSharpSession
     class Person
     {
         //field
+        // Learning github
         public string Name;
         public int Age;
         public long Salary;
@@ -17,6 +18,7 @@ namespace MyCSharpSession
         public void DisplayInfo()
         {
             Console.WriteLine($"Person's Name: {Name}, Person's Age: {Age}, Person's Salary: {Salary}");
+            
         }
     }
 
